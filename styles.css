@@ -1,4 +1,4 @@
-*{
+body{
     font-size: 18px;
     color:#2D3748;
     font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif; 
@@ -11,7 +11,6 @@
     column-gap: 10%;
     width: 100%;
     margin: 0 auto;
-    
 }
 
 header{
@@ -40,13 +39,20 @@ header h1{
     color: #718096;
 }
 
-#blog1-img{
-    float:left;
+.blog-img img{
     position: relative;
-    max-height: 500px;
-    max-width: 500px;
+    height: 50%;
+    width: 50%;
     margin: 10px 10px 10px 10px;
     object-fit: contain;
+}
+
+#blog1-img{
+    float: left;
+}
+
+#blog2-img{
+    float: right;
 }
 
 article {
