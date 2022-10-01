@@ -35,7 +35,7 @@ header h1{
     width: 200px;
 }
 
-#blog-info{
+.blog-info{
     color: #718096;
 }
 
@@ -65,6 +65,7 @@ article h2{
 
 article p{
     overflow-wrap: break-word;
+    text-align: justify;
 }
 
 .divider-line{
